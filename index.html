@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rasky Club — Aprende a construir negocios digitales</title>
+<meta name="description" content="Rasky Club: el curso básico para aprender los 5 modelos de negocio digitales y empezar a construir tu propio camino financiero, desde cero.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ HERO ============ -->
+<header class="hero" id="inicio">
+  <div class="hero__bg" aria-hidden="true">
+    <svg class="hero__routes" viewBox="0 0 1200 900" preserveAspectRatio="xMidYMid slice">
+      <g class="routes-lines" fill="none" stroke-width="1.6">
+        <path class="route-path" d="M120,180 C 320,260 460,420 600,460" />
+        <path class="route-path" d="M1080,140 C 880,230 720,380 600,460" />
+        <path class="route-path" d="M90,620 C 300,560 460,500 600,460" />
+        <path class="route-path" d="M1120,660 C 900,580 740,510 600,460" />
+        <path class="route-path" d="M600,90 C 600,220 600,340 600,460" />
+      </g>
+      <g class="routes-nodes">
+        <circle class="node" cx="120" cy="180" r="5"></circle>
+        <circle class="node" cx="1080" cy="140" r="5"></circle>
+        <circle class="node" cx="90" cy="620" r="5"></circle>
+        <circle class="node" cx="1120" cy="660" r="5"></circle>
+        <circle class="node" cx="600" cy="90" r="5"></circle>
+        <circle class="node node--core" cx="600" cy="460" r="10"></circle>
+      </g>
+    </svg>
+  </div>
+
+  <div class="container hero__content">
+    <div class="hero__logo">
+      <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="17" cy="17" r="16" stroke="#0A3A5C" stroke-width="2"/>
+        <path d="M17 6 L26 25 H8 Z" fill="#2AACE3"/>
+      </svg>
+      <span>RASKY CLUB</span>
+    </div>
+
+    <p class="eyebrow">CURSO BÁSICO · NEGOCIOS DIGITALES</p>
+    <h1 class="hero__title">Un camino claro para <span>construir tu propio negocio</span> desde cero.</h1>
+    <p class="hero__subtitle">Aprende los 5 modelos de negocio digital que están usando miles de personas en Latinoamérica para generar sus primeros ingresos por Internet — con lecciones simples, prácticas y pensadas para empezar hoy mismo.</p>
+    <p class="hero__quote">"Tu futuro financiero comienza con una decisión."</p>
+
+    <div class="hero__cta">
+      <a href="#" class="btn btn--primary btn--large js-hotmart-link">ÚNETE AHORA</a>
+      <span class="hero__cta-note">Acceso inmediato · Pago 100% seguro</span>
+    </div>
+
+    <ul class="trust-bar">
+      <li><svg class="icon" viewBox="0 0 24 24"><path d="M12 2 4 5v6c0 5 3.4 8.7 8 10 4.6-1.3 8-5 8-10V5l-8-3Z"/><path d="m9 12 2 2 4-4" class="stroke-only"/></svg>Pago seguro</li>
+      <li><svg class="icon" viewBox="0 0 24 24"><path d="M13 2 4 14h6l-1 8 9-12h-6l1-8Z"/></svg>Acceso inmediato</li>
+      <li><svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2" class="stroke-only"/></svg>Soporte 24/7</li>
+      <li><svg class="icon" viewBox="0 0 24 24"><path d="M12 21s-7-4.5-9.5-9C.5 7.5 3 3 7 3c2.1 0 3.7 1.2 5 3 1.3-1.8 2.9-3 5-3 4 0 6.5 4.5 4.5 9-2.5 4.5-9.5 9-9.5 9Z"/></svg>Hecho para Latinoamérica</li>
+    </ul>
+  </div>
+
+  <div class="hero__scroll" aria-hidden="true"><span></span></div>
+</header>
+
+<main>
+
+<!-- ============ SECCIÓN 1 — MODELOS ============ -->
+<section class="section" id="modelos">
+  <div class="container">
+    <p class="eyebrow eyebrow--center">RUTAS DE NEGOCIO</p>
+    <h2 class="section__title reveal">5 modelos de negocio digital, explicados sin vueltas.</h2>
+    <p class="section__lead reveal">No existe un solo camino para generar ingresos por Internet. En Rasky Club aprendes los cinco principales, para que elijas el que mejor se adapte a ti.</p>
+
+    <div class="grid grid--5">
+      <article class="card reveal">
+        <div class="card__icon"><svg viewBox="0 0 24 24"><path d="M3 6h18l-1.5 12.5a2 2 0 0 1-2 1.5H6.5a2 2 0 0 1-2-1.5L3 6Z"/><path d="M8 6V4a4 4 0 0 1 8 0v2" class="stroke-only"/></svg></div>
+        <h3>Ecommerce</h3>
+        <p>Cómo montar y operar una tienda online propia, de principio a fin.</p>
+      </article>
+      <article class="card reveal">
+        <div class="card__icon"><svg viewBox="0 0 24 24"><path d="M21 8 12 3 3 8l9 5 9-5Z"/><path d="M3 8v8l9 5 9-5V8" class="stroke-only"/><path d="M12 13v8" class="stroke-only"/></svg></div>
+        <h3>Dropshipping</h3>
+        <p>Vende productos sin manejar inventario ni logística propia.</p>
+      </article>
+      <article class="card reveal">
+        <div class="card__icon"><svg viewBox="0 0 24 24"><path d="M4 19.5V5a2 2 0 0 1 2-2h11a1 1 0 0 1 1 1v15" class="stroke-only"/><path d="M6.5 19.5H19a2 2 0 0 0 2-2V17H6.5a2 2 0 0 0 0 5Z"/></svg></div>
+        <h3>Productos digitales</h3>
+        <p>Crea infoproductos, cursos o plantillas que vendes una y otra vez.</p>
+      </article>
+      <article class="card reveal">
+        <div class="card__icon"><svg viewBox="0 0 24 24"><path d="M4 4h16v4H4z"/><path d="M6 8v12h12V8" class="stroke-only"/><path d="M10 12h4" class="stroke-only"/></svg></div>
+        <h3>Reventa</h3>
+        <p>Compra y revende con márgenes claros, sin depender de fabricar nada.</p>
+      </article>
+      <article class="card reveal">
+        <div class="card__icon"><svg viewBox="0 0 24 24"><path d="M12 2 2 7l10 5 10-5-10-5Z"/><path d="m2 17 10 5 10-5" class="stroke-only"/><path d="m2 12 10 5 10-5" class="stroke-only"/></svg></div>
+        <h3>Marca propia</h3>
+        <p>Construye una marca con identidad propia que puedas escalar en el tiempo.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FRASE 1 ============ -->
+<div class="statement reveal">
+  <p>No trabajes solamente por dinero.<br><span>Aprende a construir activos.</span></p>
+</div>
+
+<!-- ============ SECCIÓN 2 — PARA QUIÉN ============ -->
+<section class="section section--tint" id="para-quien">
+  <div class="container">
+    <p class="eyebrow eyebrow--center">¿ES PARA TI?</p>
+    <h2 class="section__title reveal">Diseñado para quienes están listos para empezar.</h2>
+
+    <div class="grid grid--3">
+      <div class="tile reveal">
+        <span class="tile__mark"></span>
+        <h3>Emprendedores</h3>
+        <p>Que buscan un método claro para ordenar y hacer crecer su siguiente proyecto.</p>
+      </div>
+      <div class="tile reveal">
+        <span class="tile__mark"></span>
+        <h3>Futuros empresarios</h3>
+        <p>Que quieren construir las bases antes de dar el siguiente gran paso.</p>
+      </div>
+      <div class="tile reveal">
+        <span class="tile__mark"></span>
+        <h3>Estudiantes</h3>
+        <p>Que quieren aprender una habilidad real mientras siguen estudiando.</p>
+      </div>
+      <div class="tile reveal">
+        <span class="tile__mark"></span>
+        <h3>Buscadores de libertad financiera</h3>
+        <p>Que quieren depender menos de un solo ingreso.</p>
+      </div>
+      <div class="tile reveal">
+        <span class="tile__mark"></span>
+        <h3>Ingresos por Internet</h3>
+        <p>Que quieren aprender a generar ingresos desde cualquier lugar.</p>
+      </div>
+      <div class="tile reveal">
+        <span class="tile__mark"></span>
+        <h3>Desde cero</h3>
+        <p>Que nunca han emprendido y necesitan un punto de partida real.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SECCIÓN 3 — QUÉ INCLUYE ============ -->
+<section class="section" id="incluye">
+  <div class="container">
+    <p class="eyebrow eyebrow--center">DENTRO DEL CLUB</p>
+    <h2 class="section__title reveal">Todo lo que necesitas, en un solo lugar.</h2>
+
+    <div class="grid grid--include">
+      <div class="include-item reveal">
+        <svg class="icon icon--lg" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h10" class="stroke-only"/></svg>
+        <h3>Lecciones paso a paso</h3>
+        <p>Contenido ordenado para avanzar sin perderte.</p>
+      </div>
+      <div class="include-item reveal">
+        <svg class="icon icon--lg" viewBox="0 0 24 24"><rect x="7" y="2" width="10" height="20" rx="2" class="stroke-only"/><path d="M11 18h2" class="stroke-only"/></svg>
+        <h3>Acceso desde celular</h3>
+        <p>Estudia donde estés, cuando puedas.</p>
+      </div>
+      <div class="include-item reveal">
+        <svg class="icon icon--lg" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="13" rx="2" class="stroke-only"/><path d="M8 21h8M12 17v4" class="stroke-only"/></svg>
+        <h3>Acceso desde computadora</h3>
+        <p>La misma experiencia, en pantalla grande.</p>
+      </div>
+      <div class="include-item reveal">
+        <svg class="icon icon--lg" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3" class="stroke-only"/><path d="M2 20c0-3.5 3-6 7-6s7 2.5 7 6" class="stroke-only"/><circle cx="18" cy="9" r="2.5" class="stroke-only"/><path d="M16 14.5c2.8.3 5 2.4 5 5.5" class="stroke-only"/></svg>
+        <h3>Comunidad privada</h3>
+        <p>Un espacio con personas que están en el mismo camino.</p>
+      </div>
+      <div class="include-item reveal">
+        <svg class="icon icon--lg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" class="stroke-only"/><path d="M12 7v5l3.5 2" class="stroke-only"/></svg>
+        <h3>Soporte 24/7</h3>
+        <p>Resolvemos tus dudas en cualquier momento.</p>
+      </div>
+      <div class="include-item reveal">
+        <svg class="icon icon--lg" viewBox="0 0 24 24"><path d="M3 17 9 11l4 4 8-8" class="stroke-only"/><path d="M15 7h6v6" class="stroke-only"/></svg>
+        <h3>Seguimiento</h3>
+        <p>Acompañamiento real a lo largo de tu avance.</p>
+      </div>
+      <div class="include-item reveal">
+        <svg class="icon icon--lg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8" class="stroke-only"/><circle cx="12" cy="12" r="4" class="stroke-only"/><circle cx="12" cy="12" r="0.6"/></svg>
+        <h3>Ayuda para tus objetivos</h3>
+        <p>Un enfoque práctico centrado en tus metas.</p>
+      </div>
+      <div class="include-item reveal">
+        <svg class="icon icon--lg" viewBox="0 0 24 24"><path d="M4 4v6h6M20 20v-6h-6" class="stroke-only"/><path d="M5.5 15a7 7 0 0 0 13-3M18.5 9a7 7 0 0 0-13 3" class="stroke-only"/></svg>
+        <h3>Actualizaciones futuras</h3>
+        <p>El contenido evoluciona y tú lo recibes.</p>
+      </div>
+      <div class="include-item reveal">
+        <svg class="icon icon--lg" viewBox="0 0 24 24"><path d="M20 7h-5.7a2.5 2.5 0 1 0-4.6 0H4a1 1 0 0 0-1 1v3h18V8a1 1 0 0 0-1-1Z" class="stroke-only"/><path d="M4 11v9a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-9" class="stroke-only"/></svg>
+        <h3>Descuentos exclusivos</h3>
+        <p>Precios especiales en próximos cursos.</p>
+      </div>
+      <div class="include-item reveal">
+        <svg class="icon icon--lg" viewBox="0 0 24 24"><path d="M12 2 9 8H4l4 4-1.5 6L12 15l5.5 3L16 12l4-4h-5Z" class="stroke-only"/></svg>
+        <h3>Premios y sorteos</h3>
+        <p>Reconocemos a quienes avanzan dentro del club.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FRASE 2 ============ -->
+<div class="statement statement--alt reveal">
+  <p>Empieza hoy.<br><span>Tu yo del futuro te lo agradecerá.</span></p>
+</div>
+
+<!-- ============ SECCIÓN 4 — POR QUÉ ELEGIRNOS ============ -->
+<section class="section section--tint" id="por-que">
+  <div class="container why">
+    <div class="why__text">
+      <p class="eyebrow">LA DIFERENCIA</p>
+      <h2 class="section__title reveal">¿Por qué elegir Rasky Club?</h2>
+      <p class="section__lead reveal">Fuimos directo al punto: quitamos la teoría innecesaria y dejamos solo lo que realmente ayuda a avanzar.</p>
+    </div>
+    <ul class="why__list">
+      <li class="reveal"><strong>Método simple.</strong><span>Sin complicaciones ni tecnicismos de más.</span></li>
+      <li class="reveal"><strong>Formación clara.</strong><span>Cada lección tiene un propósito específico.</span></li>
+      <li class="reveal"><strong>Enfoque práctico.</strong><span>Menos teoría, más acción real.</span></li>
+      <li class="reveal"><strong>Pensado para Latinoamérica.</strong><span>Ejemplos y contexto cercanos a tu realidad.</span></li>
+      <li class="reveal"><strong>Aprende haciendo.</strong><span>Avanzas mientras aplicas lo aprendido.</span></li>
+      <li class="reveal"><strong>Todo paso a paso.</strong><span>Un orden pensado para que nada te abrume.</span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ SECCIÓN 5 — TESTIMONIOS ============ -->
+<section class="section" id="testimonios">
+  <div class="container">
+    <p class="eyebrow eyebrow--center">LO QUE DICEN ADENTRO</p>
+    <h2 class="section__title reveal">Personas reales, construyendo su camino.</h2>
+    <p class="section__lead reveal section__lead--note">Ejemplos de testimonio — reemplázalos por opiniones reales de tus estudiantes.</p>
+
+    <div class="grid grid--3">
+      <figure class="testimonial reveal">
+        <div class="testimonial__head">
+          <img src="assets/avatar-1.svg" alt="" class="testimonial__avatar">
+          <div>
+            <figcaption>Camila Torres</figcaption>
+            <span class="testimonial__role">Estudiante del curso básico</span>
+          </div>
+        </div>
+        <div class="testimonial__stars" aria-hidden="true">★★★★★</div>
+        <blockquote>"Me gustó que todo estuviera explicado paso a paso. Pude avanzar a mi ritmo sin sentirme perdida."</blockquote>
+      </figure>
+      <figure class="testimonial reveal">
+        <div class="testimonial__head">
+          <img src="assets/avatar-2.svg" alt="" class="testimonial__avatar">
+          <div>
+            <figcaption>Andrés Molina</figcaption>
+            <span class="testimonial__role">Estudiante del curso básico</span>
+          </div>
+        </div>
+        <div class="testimonial__stars" aria-hidden="true">★★★★★</div>
+        <blockquote>"La comunidad me ayudó a resolver dudas rápido. Se nota que hay soporte real detrás."</blockquote>
+      </figure>
+      <figure class="testimonial reveal">
+        <div class="testimonial__head">
+          <img src="assets/avatar-3.svg" alt="" class="testimonial__avatar">
+          <div>
+            <figcaption>Valeria Ponce</figcaption>
+            <span class="testimonial__role">Estudiante del curso básico</span>
+          </div>
+        </div>
+        <div class="testimonial__stars" aria-hidden="true">★★★★★</div>
+        <blockquote>"Empecé sin saber nada del tema y el curso me dio una base clara para seguir aprendiendo."</blockquote>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SECCIÓN 7 — PAGO ============ -->
+<section class="section section--dark" id="pago">
+  <div class="container pago">
+    <p class="eyebrow eyebrow--onblue">INSCRIPCIÓN</p>
+    <h2 class="section__title section__title--onblue reveal">Tu lugar en Rasky Club te espera.</h2>
+    <p class="section__lead section__lead--onblue reveal">Un solo pago, acceso completo. Sin letras chicas.</p>
+
+    <div class="pago__card reveal">
+      <ul class="pago__features">
+        <li><svg class="icon" viewBox="0 0 24 24"><path d="m5 12 4 4 10-10" class="stroke-only"/></svg>Pago 100% seguro a través de Hotmart</li>
+        <li><svg class="icon" viewBox="0 0 24 24"><path d="m5 12 4 4 10-10" class="stroke-only"/></svg>Acceso inmediato al finalizar tu compra</li>
+        <li><svg class="icon" viewBox="0 0 24 24"><path d="m5 12 4 4 10-10" class="stroke-only"/></svg>Opción de pago en cuotas, según tu país y método</li>
+        <li><svg class="icon" viewBox="0 0 24 24"><path d="m5 12 4 4 10-10" class="stroke-only"/></svg>Plataforma de pago confiable y reconocida</li>
+      </ul>
+      <a href="#" class="btn btn--primary btn--large btn--full js-hotmart-link">ÚNETE AHORA</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SECCIÓN 8 — FAQ ============ -->
+<section class="section" id="faq">
+  <div class="container container--narrow">
+    <p class="eyebrow eyebrow--center">DUDAS FRECUENTES</p>
+    <h2 class="section__title reveal">Preguntas frecuentes.</h2>
+
+    <div class="accordion reveal">
+      <div class="accordion__item">
+        <button class="accordion__trigger" aria-expanded="false">
+          <span>¿Necesito experiencia?</span>
+          <span class="accordion__icon" aria-hidden="true"></span>
+        </button>
+        <div class="accordion__panel"><p>No. El curso está diseñado para empezar desde cero, sin conocimientos previos.</p></div>
+      </div>
+      <div class="accordion__item">
+        <button class="accordion__trigger" aria-expanded="false">
+          <span>¿Cuánto dura el acceso?</span>
+          <span class="accordion__icon" aria-hidden="true"></span>
+        </button>
+        <div class="accordion__panel"><p>Tienes acceso completo para avanzar a tu propio ritmo, sin presión de tiempo.</p></div>
+      </div>
+      <div class="accordion__item">
+        <button class="accordion__trigger" aria-expanded="false">
+          <span>¿Puedo ingresar desde mi celular?</span>
+          <span class="accordion__icon" aria-hidden="true"></span>
+        </button>
+        <div class="accordion__panel"><p>Sí. La plataforma funciona perfectamente desde celular y computadora.</p></div>
+      </div>
+      <div class="accordion__item">
+        <button class="accordion__trigger" aria-expanded="false">
+          <span>¿Recibiré actualizaciones?</span>
+          <span class="accordion__icon" aria-hidden="true"></span>
+        </button>
+        <div class="accordion__panel"><p>Sí. A medida que el contenido se actualiza, tú tienes acceso a las mejoras.</p></div>
+      </div>
+      <div class="accordion__item">
+        <button class="accordion__trigger" aria-expanded="false">
+          <span>¿Cómo funciona el soporte?</span>
+          <span class="accordion__icon" aria-hidden="true"></span>
+        </button>
+        <div class="accordion__panel"><p>Contamos con soporte disponible 24/7 para resolver tus dudas durante el curso.</p></div>
+      </div>
+      <div class="accordion__item">
+        <button class="accordion__trigger" aria-expanded="false">
+          <span>¿Qué métodos de pago aceptan?</span>
+          <span class="accordion__icon" aria-hidden="true"></span>
+        </button>
+        <div class="accordion__panel"><p>Aceptamos los métodos disponibles en Hotmart según tu país: tarjetas, y otras opciones locales.</p></div>
+      </div>
+      <div class="accordion__item">
+        <button class="accordion__trigger" aria-expanded="false">
+          <span>¿Puedo pagar en cuotas?</span>
+          <span class="accordion__icon" aria-hidden="true"></span>
+        </button>
+        <div class="accordion__panel"><p>Sí, cuando esté disponible según tu país y el método de pago elegido en Hotmart.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FRASE 3 + CIERRE ============ -->
+<section class="closing" id="cierre">
+  <div class="closing__bg" aria-hidden="true">
+    <svg class="hero__routes hero__routes--closing" viewBox="0 0 1200 900" preserveAspectRatio="xMidYMid slice">
+      <g class="routes-lines" fill="none" stroke-width="1.6">
+        <path class="route-path" d="M120,180 C 320,260 460,420 600,460" />
+        <path class="route-path" d="M1080,140 C 880,230 720,380 600,460" />
+        <path class="route-path" d="M90,620 C 300,560 460,500 600,460" />
+        <path class="route-path" d="M1120,660 C 900,580 740,510 600,460" />
+        <path class="route-path" d="M600,90 C 600,220 600,340 600,460" />
+      </g>
+      <g class="routes-nodes">
+        <circle class="node" cx="120" cy="180" r="5"></circle>
+        <circle class="node" cx="1080" cy="140" r="5"></circle>
+        <circle class="node" cx="90" cy="620" r="5"></circle>
+        <circle class="node" cx="1120" cy="660" r="5"></circle>
+        <circle class="node" cx="600" cy="90" r="5"></circle>
+        <circle class="node node--core" cx="600" cy="460" r="10"></circle>
+      </g>
+    </svg>
+  </div>
+  <div class="container closing__content">
+    <p class="closing__quote reveal">"Tu futuro financiero comienza con una decisión."</p>
+    <h2 class="closing__title reveal">Únete ahora y empieza a construir tu futuro.</h2>
+    <p class="closing__text reveal">Cada persona dentro de Rasky Club empezó exactamente donde tú estás ahora. La diferencia fue decidir empezar.</p>
+    <a href="#" class="btn btn--primary btn--xl js-hotmart-link">ÚNETE AHORA</a>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="hero__logo hero__logo--footer">
+      <svg width="26" height="26" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="17" cy="17" r="16" stroke="#FFFFFF" stroke-width="2"/>
+        <path d="M17 6 L26 25 H8 Z" fill="#2AACE3"/>
+      </svg>
+      <span>RASKY CLUB</span>
+    </div>
+    <p>© <span id="year"></span> Rasky Club. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<!-- CTA flotante móvil -->
+<div class="sticky-cta" id="stickyCta">
+  <a href="#" class="btn btn--primary btn--full js-hotmart-link">ÚNETE AHORA</a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
